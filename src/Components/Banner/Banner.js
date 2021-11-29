@@ -7,8 +7,8 @@ const Banner = () => {
             <div className="grid  sm:grid-cols-1 md:grid-cols-2 gap-2">
               <div className="py-32 mx-auto">
               <h5 className=" text-2xl bg-green-500 rounded-full rounded-bl-none px-3 d-inline-block w-32 pe-0">Hello I'm</h5>
-                <h1 className="text-5xl ">Minhaz_</h1>
-                <h3 className="text-2xl">Web Developer</h3>
+                <h1 className="text-5xl mt-2">Minhaz_</h1>
+                <h3 className="text-2xl mb-2">Web Developer</h3>
                 <button  className="rounded-full bg-green-400 px-3 py-1 my-2">Resume <i className="fas fa-download text-white "></i></button>
               </div>
               <div>
