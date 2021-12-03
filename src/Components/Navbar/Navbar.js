@@ -5,7 +5,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
    
     return (
-        <div>
+        <div className="sticky top-0 z-50">
                   <div>
       <nav className="bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -15,42 +15,47 @@ const Navbar = () => {
                <h2 className="text-white text-2xl">MINHAZ_</h2>
               </div>
               <div className="hidden md:block sm:block">
-                {/* <div className="ml-10 flex items-baseline space-x-4">
+                <div className="ml-10 flex items-baseline space-x-4">
                   <a
-                    href="#"
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                   rel='noreferrer'
+                    href="#home"
+                    className=" hover:bg-gray-700 text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Dashboard
+                    Home
+                  </a>
+                  <a
+                   rel='noreferrer'
+                    href="#about"
+                    className=" hover:bg-gray-700 text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    About
                   </a>
 
                   <a
-                    href="#"
+                   rel='noreferrer'
+                    href="#myProjects"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Team
+                   Projects
+                  </a>
+                  <a
+                   rel='noreferrer'
+                    href="#blogs"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                   Blogs
                   </a>
 
                   <a
-                    href="#"
+                    rel='noreferrer'
+                    href="#contact"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Projects
+                    Contact
                   </a>
 
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Calendar
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Reports
-                  </a>
-                </div> */}
+                 
+                </div>
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
@@ -111,42 +116,49 @@ const Navbar = () => {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              {/* <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
-                  href="#"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Dashboard
-                </a>
+              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            
 
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Team
-                </a>
+              <a
+                   rel='noreferrer'
+                    href="#home"
+                    className=" text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Home
+                  </a>
+                  <a
+                   rel='noreferrer'
+                    href="#about"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    About
+                  </a>
 
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Projects
-                </a>
+                  <a
+                   rel='noreferrer'
+                    href="#myProjects"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                   Projects
+                  </a>
+                  <a
+                   rel='noreferrer'
+                    href="#blogs"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                   Blogs
+                  </a>
 
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Calendar
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Reports
-                </a>
-              </div> */}
+                  <a
+                    rel='noreferrer'
+                    href="#contact"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Contact
+                  </a>
+               
+              
+              </div>
             </div>
           )}
         </Transition>

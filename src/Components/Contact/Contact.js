@@ -1,7 +1,13 @@
-import React from 'react';
 import emailjs from 'emailjs-com';
+import AOS from 'aos';
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+  useEffect(()=>{
+    AOS.init();
+   })
+    
   
   function onSubmit(e) {
     e.preventDefault();
@@ -15,14 +21,14 @@ const Contact = () => {
       e.target.reset()
   };
     return (
-      <div className="bg-blue-200 mb-8">
+      <div className="bg-blue-200 " id="contact">
         <div className="container mx-auto">
-        <h2 className=" text-white text-2xl bg-green-500   px-3 d-inline-block w-64 mx-auto py-3 px-5  rounded-full rounded-br-none rounded-tl-none">Contact With Me</h2>
+        <h2  data-aos="fade-up"    className=" text-white text-2xl bg-green-500   px-3 d-inline-block w-64 mx-auto py-3 px-5  rounded-full rounded-br-none rounded-tl-none">Contact With Me</h2>
             <div className="grid  sm:grid-cols-1 md:grid-cols-2 gap-2 mt-8">
-            <div>
-              <img src="https://i.ibb.co/C0hKvw1/rvb-de-base-185361734-removebg-preview.png" alt="" />
+            <div data-aos="fade-right">
+              <img  src="https://i.ibb.co/C0hKvw1/rvb-de-base-185361734-removebg-preview.png" alt="" />
               </div>
-              <div className="  border-2 p-8">
+              <div data-aos="fade-right"     className="  border-2 p-8">
               <form onSubmit={onSubmit}>
       <input className=" border-4 w-full px-1 " name="name" required type="text"  placeholder="Name" />
       <br/>
