@@ -23,7 +23,10 @@ const Contact = () => {
     return (
       <div className="bg-blue-200 " id="contact">
         <div className="container mx-auto">
-        <h2  data-aos="fade-up"    className=" text-white text-2xl bg-green-500   px-3 d-inline-block w-64 mx-auto py-3 px-5  rounded-full rounded-br-none rounded-tl-none">Contact With Me</h2>
+        <div className="pt-5">
+        <h2  data-aos="fade-up" className=" text-white text-2xl bg-green-500   px-3 d-inline-block w-56 mx-auto py-3 pl-6  rounded-full rounded-br-none rounded-tl-none">Contact With Me</h2>
+        </div>
+
             <div className="grid  sm:grid-cols-1 md:grid-cols-2 gap-2 mt-8">
             <div data-aos="fade-right">
               <img  src="https://i.ibb.co/C0hKvw1/rvb-de-base-185361734-removebg-preview.png" alt="" />

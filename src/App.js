@@ -5,7 +5,7 @@ import Home from './Components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-gray-800">
       <Router>
         <Routes>
           <Route path="/" element={<Home/> }>

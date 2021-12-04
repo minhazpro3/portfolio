@@ -31,6 +31,8 @@ const Navbar = () => {
                     About
                   </a>
 
+
+
                   <a
                    rel='noreferrer'
                     href="#myProjects"
@@ -38,6 +40,9 @@ const Navbar = () => {
                   >
                    Projects
                   </a>
+
+
+
                   <a
                    rel='noreferrer'
                     href="#blogs"
