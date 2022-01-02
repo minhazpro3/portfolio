@@ -52,7 +52,7 @@ const MyProjects = () => {
         
         <div className=" container mx-auto text-white ">
            <div className="pt-5">
-           <h2 data-aos="fade-up"    className=" justify-center text-2xl bg-green-500   px-8 d-inline-block w-56 mx-auto py-3 px-5 mb-8 rounded-full rounded-br-none rounded-tl-none">My Projects</h2>
+           <h2 data-aos="fade-up"    className=" justify-center text-2xl bg-green-500   px-8 d-inline-block w-48 mx-auto py-3 px-5 mb-8 rounded-full rounded-br-none rounded-tl-none">My Projects</h2>
            </div>
             <div className="grid md:grid-cols-3 gap-4 justify-center">
 

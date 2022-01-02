@@ -28,7 +28,7 @@ const Banner = () => {
               steps={[
                 'Web Developer', 1000,
                 'Font End Developer', 2000,
-                 ' MERN Stack Dev', 3000 ]}
+                 ' MERN Stack Developer', 3000 ]}
               
             /></h3>
                       

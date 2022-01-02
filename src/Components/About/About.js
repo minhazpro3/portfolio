@@ -9,11 +9,11 @@ const About = () => {
     return (
       <div className=" " id="about">     
            <div className="container mx-auto">
-           <h2  data-aos="fade-up"    className=" mt-5 justify-center text-2xl bg-green-500   px-8 d-inline-block w-48 text-white mx-auto py-3 px-5 mb-8 rounded-full rounded-br-none rounded-tl-none">About me</h2>
+           <h2  data-aos="fade-up"    className=" mt-5 justify-center text-2xl bg-green-500   px-8 d-inline-block w-44 text-white mx-auto py-3 px-5 mb-8 rounded-full rounded-br-none rounded-tl-none">About me</h2>
                 
                 <div className="grid my-8 sm:grid-cols-1 md:grid-cols-2 gap-4 flex  items-center">
                 <div data-aos="fade-right"  className="px-5">
-              <img className="w-full" src="https://st3.depositphotos.com/5392356/13702/i/600/depositphotos_137026300-stock-photo-programmer-working-in-a-software.jpg" alt="" />
+              <img className="w-full" src="https://i.ibb.co/vmcQDGz/minhazpic-removebg-preview.png" alt="" />
               </div>
               <div data-aos="fade-right" className=" text-white align-center px-5">
                 <h3 className="">Hello, I’m  Minhaz, web-developer based on Paris. I have rich experience in web site design & building and customization. Also I am good at</h3>
