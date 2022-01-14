@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './Components/Home/Home';
 
 
@@ -8,13 +8,13 @@ function App() {
     <div className="bg-gray-800">
       <Router>
         <Routes>
-          <Route path="/" element={<Home/> }>
+          <Route path="/" element={<Home />}>
 
           </Route>
-          
+
         </Routes>
       </Router>
-     
+
     </div>
   );
 }
