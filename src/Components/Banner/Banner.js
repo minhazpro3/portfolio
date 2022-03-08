@@ -46,14 +46,14 @@ const Banner = () => {
             </h3>
 
             <div data-aos="fade-up">
-              <Link
+              <a
                 className="rounded-full bg-green-400  py-3 px-8 "
-                to="/Resume of Minhaz.pdf"
+               href="https://drive.google.com/file/d/1Lmwgm2vYZblFfTocGtT8GgvxXJe8-GpA/view?usp=sharing"
                 target="_blank"
                 download
               >
-                Resume <i className="fas fa-download text-white "></i>
-              </Link>
+                Resume  
+              </a>
             </div>
           </div>
           <div data-aos="fade-right">
