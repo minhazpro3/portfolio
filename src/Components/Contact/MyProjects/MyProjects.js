@@ -11,7 +11,7 @@ const MyProjects = () => {
   const projects = [
     {
       id: 1,
-      name: 'Bike Market Website',
+      name: 'Bike Market ((MERN Stack)',
       img: 'https://assallop.sirv.com/bike-bazar%202.png',
       description: 'Users can login and register, log out, and not access the website without logging in, Users will be able to order or cancel, Also be able to handle all orders including ad services available, order cancellations and status updates, There are also admin site, products management and order conditions.',
       language: "React.js, node.js, React router dom, express, mongodb, Firebase Authentication, Css3, Bootstrap",
@@ -23,7 +23,19 @@ const MyProjects = () => {
     },
     {
       id: 2,
-      name: 'Amusement Park Related Website',
+      name: 'Life Care (MERN Stack), Running',
+      img: 'https://assallop.sirv.com/new-project-pic2.png',
+      description: 'Users can login and register, log out, and not access the website without logging in, Users will be able to order or cancel, Also be able to handle all orders including ad services available, order cancellations and status updates, There are also admin site, products management and order conditions.',
+      language: "React.js, node.js, React router dom, express, mongodb, Firebase Authentication, Redux, Css3, TailwindCss",
+      live: 'https://life-care-web.netlify.app/',
+      client: 'https://github.com/minhazpro3/doctors-appointment-shop-client',
+      server: 'https://github.com/minhazpro3/doctors-appointment-shop-server'
+
+
+    },
+    {
+      id: 3,
+      name: 'Amusement Park (MERN Stack)',
       img: 'https://assallop.sirv.com/park.png',
       description: 'Users can login and register, log out, and not access the website without logging in, Users will be able to order or cancel, Also be able to handle all orders including ad services available, order cancellations and status updates, There are also admin site, products management and order conditions.',
       language: "React.js, node.js, React router dom, express, mongodb, Firebase Authentication, Css3, Bootstrap",
@@ -34,7 +46,7 @@ const MyProjects = () => {
 
     },
     {
-      id: 3,
+      id: 4,
       name: 'Wisdom School (Team Project)',
       img: 'https://assallop.sirv.com/wisdom%20screen%20short.png',
       description: 'Users can login and register, log out, and not access the website without logging in, Users will be able to order or cancel, Also be able to handle all orders including ad services available, order cancellations and status updates, There are also admin site, products management and order conditions.',
@@ -44,7 +56,31 @@ const MyProjects = () => {
       server: 'https://github.com/minhazpro3/team-project-server'
 
 
-    }
+    },
+    {
+      id: 5,
+      name: 'PSD to Html',
+      img: 'https://assallop.sirv.com/pst-html.png',
+      description: 'It is home page, PSD to Html Project .',
+      language: "Html5, Css3, Bootstrap",
+      live: 'https://sleepy-leavitt-e7a998.netlify.app/',
+      client: 'https://github.com/minhazpro3/home-page-psd-to-html',
+      
+
+
+    },
+    {
+      id: 6,
+      name: 'PSD to Html',
+      img: 'https://assallop.sirv.com/assignment-three.png',
+      description: 'It is home page, PSD to Html Project .',
+      language: "Html5, Css3, Bootstrap",
+      live: 'https://elastic-pike-dc634d.netlify.app/',
+      client: 'https://github.com/minhazpro3/honda-CBR-400',
+      
+
+
+    },
   ]
 
   return (
